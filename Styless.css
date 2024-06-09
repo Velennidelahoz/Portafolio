@@ -4,9 +4,7 @@
     padding: 0;
 }
 
-html{
-    background-color: black;
-}
+
 
 body{
     background-color: #FAF6F7;
@@ -131,10 +129,15 @@ body{
     width: 100%;
     height: 1650px;
     display: flex;
-    align-content: center;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
     right: 0px;
     top: 700px; 
+    gap: 50px;
+
 }
 
 .nubes{
@@ -147,59 +150,83 @@ body{
 }
 
 .tituloh2{
-        width: auto;
         height: 130px;
-        position: absolute;
-        right: 300px;
         text-align: center;
         font-size: 90px;
         color: #ffff;
-        margin-top: 100px;    
+        justify-self: flex-start;
+        margin-top: -250px;
+        margin-bottom: 250px;
 }
 
+.carruselHabilidades{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.lintec{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.lineatec{
+    height: 2px;
+    width: 30%;
+    background-color: #ffffff;
+
+
+}
+
+
 .tecnicas{
-    width: auto;
-    position: absolute;
-    right: 500px;
-    text-align: center;
+/* 
+    text-align: center; */
     font-size: 70px;
     color: #ffff;
-    margin-top: 300px;
+    /* margin-top: 300px; */
+}
+
+.medicion{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(86, 226, 43);
 }
 
 .personales{
-    width: auto;
-    position: absolute;
-    right: 450px;
     text-align: center;
     font-size: 70px;
     color: #ffff;
-    margin-top: 1080px;
+    /* margin-top: 1080px; */
 }
 
 
-.contenedorFooter{
-    /* position: relative; */
+/* .contenedorFooter{
+    /* position: relative;
     background-color: rgb(255, 251, 0);
     position: relative;
-    /* padding: 40px; */
-}
-.fondofooter {
-
+    /* padding: 40px; 
+} */
+/* .fondofooter {
+    background-color: chartreuse;
+    height: 700px; */
+/* 
     width: 100%;
     padding: 0;
-    background-color: rgb(253, 8, 8);    
-    /* background-image: url(img/ondas.png);
-    background-repeat: no-repeat; */
+    background-color: rgb(253, 8, 8);
+    background-image: url(img/ondas.png);
+    background-repeat: no-repeat;
     
-}
+} */
 
-.fondofooter img{
-    background-size: cover;
+/* .fondofooter img{
+    object-fit: cover;
     width: 100%;
-    height: 100%;
 
-}
+} */
 
 /* footer{
    width: 100%;
@@ -212,6 +239,11 @@ body{
     bottom: 0%; 
 } */
 
+footer{
+   background-image: url(img/Group\ 3.svg);
+   height: 1600px;
+   background-size: cover;
+}
 
 
 
